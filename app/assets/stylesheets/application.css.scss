@@ -14,8 +14,7 @@
  *= require_self
  */
 
-@import "bootstrap-sprockets";
-@import "bootstrap";
+
 
 #home { 
   background: url(background_1.jpg) 50% 0 repeat fixed; min-height: 1000px;
@@ -26,11 +25,11 @@
   position: relative;
 }
 
-#home article {
+#home article, #contact article {
   height: 458px;
   position: absolute;
   text-align: center;
-  top: 150px;
+  /*top: 150px;*/
   width: 100%;
   color: white;
 }
@@ -46,11 +45,10 @@
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 
-#contact article {
-  height: 458px;
-  position: absolute;
-  text-align: center;
-  top: 150px;
-  width: 100%;
-  color: white;
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.linktext {
+  font-family: 'Oswald', sans-serif;
 }
