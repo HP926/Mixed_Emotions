@@ -15,7 +15,11 @@
 //= require turbolinks
 //= require_tree .
 
-
+// Parallax Scrolling Jquery
+$(document).ready(function(){
+                                        
+                
+});
 
 function playSomeMusic(myGenre) {  
 SC.initialize({      
