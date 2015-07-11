@@ -48,7 +48,7 @@ SC.get('/tracks', {genres: myGenre, bpm: { from: 100 } },
       var track_url = tracks[random].permalink_url;
       //LAST let's use the oEmbed method to display the soundplayer
       //in the element #target with a options such as auto play
-      SC.oEmbed(track_url, {auto_play: true, color: "ff0066"},
+      SC.oEmbed(track_url, {auto_play: true, color: "yellow"},
         document.getElementById("target"));
       }
 );
