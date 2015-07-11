@@ -35,7 +35,7 @@ h1 {
 }
 
 #about { 
-  background: url(background_3.jpg) 50% 0 repeat fixed; min-height: 1000px;
+  background: url(background_2.jpg) 50% 0 repeat fixed; min-height: 1000px;
   height: 1000px;
   margin: 0 auto;
   width: 100%;
@@ -53,7 +53,10 @@ h1 {
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
 }
-
+ .images {
+  margin-top: 100px;
+ }
+ 
 .box {
   padding: 90px;
   border: 5px solid black;
@@ -62,4 +65,5 @@ h1 {
     text-align: center;
 
   }
+
 }
